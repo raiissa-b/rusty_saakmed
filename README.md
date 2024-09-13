@@ -2,4 +2,4 @@
 - main.rs : main structures (scheduler, parameters the user can change)
 - tuner.rs : the high-frequency tuning part
 - see topology.rs and domain.rs for the way some variables are initialized (nr_doms, nr_cpus) and the way they create the topology
-  
+- rusty_saakm.c for what i tried to implement, got an average of 1.254s for 10 runs with hackbench (no crash) and 4 CPUs with qemu
