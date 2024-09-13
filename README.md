@@ -3,3 +3,6 @@
 - tuner.rs : the high-frequency tuning part
 - see topology.rs and domain.rs for the way some variables are initialized (nr_doms, nr_cpus) and the way they create the topology
 - rusty_saakm.c for what i tried to implement, got an average of 1.254s for 10 runs with hackbench (no crash) and 4 CPUs with qemu
+- cfs_eevdf.drawio for the structures and fonctoins called for the vruntime computations
+- rapport_rusty.drawio for a diagram of rusty_select_cpu and the cpumask they use
+- rusty_tables.drawio to see all their tables 💀
